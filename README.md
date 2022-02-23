@@ -6,6 +6,8 @@ O poder da orientação a objetos está quando diversas classes estão envolvida
 você conseguirá entender ainda melhor sobre o que estamos falando.Este desafio é uma continuação do anterior, sobre o sistema financeiro para sua empresa.
 Você pensou bastante e decidiu incluir o gerenciamento de contas a receber também, além de contas a pagar, que já estava sendo desenvolvido.
 Você solicitou a especificação das classes para seu analista e recebeu o diagrama de classes abaixo:
+
+![155394697-ae300911-966c-42f1-ad32-27199e12d659](https://user-images.githubusercontent.com/81782608/155395347-1a5178d5-708f-4f58-82f6-0e56e172f013.jpg)
     
  Antes de começar a codificar, é importante notar as principais mudanças:
 
@@ -19,4 +21,6 @@ A classe ContaReceber possui o método cancelar(). Isso é uma sobreposição ao
 Este método deve verificar se a conta a receber possui valor maior que 50 mil,
 pois só permitiremos o cancelamento de contas a receber para contas abaixo desse valor (vamos fingir que esse é um requisito do negócio).
 
-https://user-images.githubusercontent.com/81782608/155394697-ae300911-966c-42f1-ad32-27199e12d659.jpg)
+
+
+
